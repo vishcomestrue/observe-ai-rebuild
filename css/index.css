@@ -3,8 +3,59 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #000;
+  background-color: #1a1a1a;
   color: white;
   font-family: 'IBM Plex Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+.banner {
+  background-color: #fcbd2f;
+  text-align: center;
+  padding: 14px;
+}
+
+.banner > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+.nav {
+  background-color: #000;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 12px;
+}
+
+.nav__logo {
+  width: 13.3%;
+  height: 80%;
+}
+
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 45%;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=index.css.map */
