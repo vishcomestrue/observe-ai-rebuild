@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Link to the stylesheet used  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/index.css">
 
   <!-- Adding favicon -->
@@ -27,7 +28,7 @@
   <div class="banner">
     <a href="https://pages.observe.ai/on-demand-observe.ai-demo-see-the-platform-on-your-time" target="_blank">👁Check out Observe.AI right now👁Self-service Demo 📺 ➡</a>
   </div>
-  <div class="nav">
+  <div class="nav" id="navbar">
     <div class="nav__logo">
       <img src="./assets/logo-navbar.svg" alt="logo">
     </div>
@@ -35,9 +36,6 @@
       <div class="nav__menu--items" id="products">
         PRODUCTS&nbsp;
         <i class="fa fa-caret-down nav__menu--icons" aria-hidden="true"></i>
-        <span class="toggle">
-          
-        </span>
       </div>
       <div class="nav__menu--items">
         CUSTOMERS
@@ -52,5 +50,8 @@
       </div>
     </div>
   </div>
+
+  <!-- Added the JS file  -->
+  <script src="./js/index.js"></script>
 </body>
 </html>
