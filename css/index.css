@@ -21,8 +21,14 @@ body {
   font-weight: 800;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
 .nav {
-  background-color: #000;
+  background-color: #000000d0;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,7 +43,9 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  width: 100vw;
   padding: 0 12px;
+  z-index: 100;
 }
 
 .nav__logo {
