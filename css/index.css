@@ -66,4 +66,75 @@ body {
   width: 45%;
   font-size: 0.8rem;
 }
+
+#getADemo {
+  background-color: #fcbd2f;
+  padding: 10px 15px;
+  color: black;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  border: transparent;
+  letter-spacing: 2px;
+}
+
+#getADemo:hover {
+  background-color: #32343a;
+  color: #fcbd2f;
+}
+
+main {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.eighty {
+  width: 80vw;
+}
+
+.firstContainer {
+  margin-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.firstContainer__heading {
+  font-family: 'PlayFair Display', sans-serif;
+  font-weight: 800;
+  font-size: 4.2rem;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  line-height: 1.3;
+}
+
+.firstContainer__desc {
+  font-size: 1.2rem;
+  width: 45%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
 /*# sourceMappingURL=index.css.map */
