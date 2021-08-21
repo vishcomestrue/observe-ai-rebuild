@@ -87,4 +87,47 @@ main
     width: 45%
     text-align: center
     margin-top: 20px
+    margin-bottom: 80px
+
+  &__img
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    position: relative
     margin-bottom: 50px
+    & > img
+      width: 70vw
+
+  &__button
+    position: absolute
+    top: 50%
+    &--btn
+      background-color: #fcbd2f
+      padding: 10px 15px
+      color: black
+      font-family: 'IBM Plex Sans', sans-serif
+      font-weight: 700
+      border: transparent
+      letter-spacing: 2px
+      &:hover
+        background-color: #32343a
+        color: white
+
+  &__results
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    &--heading
+      font-family: 'PlayFair Display', sans-serif
+      font-weight: 700
+      font-size: 3rem
+
+    &--container
+      margin-top: 80px
+      width: 80vw
+      display: flex
+      flex-direction: row
+      align-items: center
+      justify-content: space-evenly
