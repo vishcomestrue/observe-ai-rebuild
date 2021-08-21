@@ -332,4 +332,112 @@ main {
   width: 15%;
   margin-bottom: 20px;
 }
+
+.secondContainer {
+  background-color: white;
+  color: #1a1a1a;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.secondContainer__calls {
+  margin-top: 100px;
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 180px;
+}
+
+.secondContainer__calls--container {
+  width: 40%;
+  padding: 20px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.secondContainer__calls--container-heading {
+  font-family: 'PlayFair Display', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  width: 90%;
+}
+
+.secondContainer__calls--container-explore > a {
+  text-decoration: underline;
+  color: #1a1a1a;
+}
+
+.secondContainer__calls--container-explore > a:hover {
+  color: #fcbd2f;
+}
+
+.secondContainer__calls--svg {
+  width: 55%;
+}
+
+.secondContainer__evaluate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.secondContainer__evaluate--heading {
+  font-weight: 800;
+  font-size: 2.7rem;
+  font-family: 'PlayFair Display', sans-serif;
+}
+
+.secondContainer__evaluate--context {
+  margin: 50px 0;
+  text-align: center;
+  width: 70%;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.secondContainer__evaluate--svgImage {
+  width: 80vw;
+  margin-top: 50px;
+  margin-bottom: 180px;
+}
 /*# sourceMappingURL=index.css.map */
