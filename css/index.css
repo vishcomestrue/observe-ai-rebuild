@@ -135,6 +135,88 @@ main {
   width: 45%;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.firstContainer__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
   margin-bottom: 50px;
+}
+
+.firstContainer__img > img {
+  width: 70vw;
+}
+
+.firstContainer__button {
+  position: absolute;
+  top: 50%;
+}
+
+.firstContainer__button--btn {
+  background-color: #fcbd2f;
+  padding: 10px 15px;
+  color: black;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  border: transparent;
+  letter-spacing: 2px;
+}
+
+.firstContainer__button--btn:hover {
+  background-color: #32343a;
+  color: white;
+}
+
+.firstContainer__results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.firstContainer__results--heading {
+  font-family: 'PlayFair Display', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.firstContainer__results--container {
+  margin-top: 80px;
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=index.css.map */
