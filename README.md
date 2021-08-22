@@ -15,6 +15,4 @@ This repo is a rebuilt version of the landing page of the site <a href="https://
 
  -> Access the site <a href="https://technophilestestingserver.netlify.app/">here</a>
 
-<hr />
-
-I am also learning React JS but have never done a project which I can link here!
+> I am also learning React JS but have never done a project which I can link here!
