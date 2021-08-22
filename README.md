@@ -1,5 +1,5 @@
 # observe-ai-rebuild
-This repo is a rebuilt version of the site observe.ai. This showcases my skills in Front End Web Development for the Daksh Web Dev Team Recruitment.
+This repo is a rebuilt version of the landing page of the site <a href="https://www.observe.ai/">observe.ai</a>. This showcases my skills in Front End Web Development for the Daksh Web Dev Team Recruitment.
 <hr />
 
 ### Languages and Frameworks used
