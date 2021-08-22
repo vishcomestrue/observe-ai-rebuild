@@ -13,4 +13,4 @@ This repo is a rebuilt version of the landing page of the site <a href="https://
 
 ### Also check out my first project which I did for a community called 'TechnoPhiles'
 
--> Access the site <a href="https://technophilestestingserver.netlify.app/">here</a>
+ -> Access the site <a href="https://technophilestestingserver.netlify.app/">here</a>
