@@ -78,7 +78,7 @@ body
   & > button 
     background-color: #fcbd2f
     border: transparent 
-    border-radius: 0.5px
+    border-radius: 10px
     padding: 5px
     font-size: 1.05rem
     font-weight: 500
@@ -278,7 +278,7 @@ main
     justify-content: center
     
     &--heading
-      font-weight: 800
+      font-weight: 900
       font-size: 2.7rem
       font-family: 'PlayFair Display', sans-serif
     
@@ -295,6 +295,33 @@ main
       margin-bottom: 180px
 
   &__motivate
+    width: 80vw
     display: flex
     align-content: center
     justify-content: space-evenly
+    margin-bottom: 180px
+
+    &--container
+      width: 35%
+      padding: 20px
+      
+      &-heading
+        font-family: 'PlayFair Display', sans-serif
+        font-weight: 900
+        font-size: 2.7rem
+        margin-bottom: 30px
+      
+      &-context 
+        font-size: 1.05rem
+        margin-bottom: 30px
+
+      &-link > a 
+        text-decoration: underline
+        color: black
+        &:hover
+          color: #fcbd2f
+
+    &--svg
+      width: 60%
+      & > img 
+        width: 100%
