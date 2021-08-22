@@ -55,6 +55,41 @@ body
     background-color: #32343a
     color: #fcbd2f 
 
+
+.cookieConsent
+  background-color: black
+  color: white
+  width: 300px
+  height: max-content
+  position: absolute
+  left: 1em
+  bottom: 1em
+  display: flex
+  flex-direction: column
+  align-content: left
+  justify-content: space-between
+  padding: 15px
+  z-index: 9999
+  border-radius: 15px
+  & > a
+    text-decoration: underline
+    color: white
+    padding: 10px 0
+  & > button 
+    background-color: #fcbd2f
+    border: transparent 
+    border-radius: 0.5px
+    padding: 5px
+    font-size: 1.05rem
+    font-weight: 500
+    font-family: sans-serif
+    &:hover
+      background-color: #1f1f1f
+      color: #fcbd2f
+
+.hide
+  display: none
+
 main
   width: 100vw
   display: flex
@@ -257,3 +292,8 @@ main
       width: 80vw
       margin-top: 50px
       margin-bottom: 180px
+
+  &__motivate
+    display: flex
+    align-content: center
+    justify-content: space-evenly
