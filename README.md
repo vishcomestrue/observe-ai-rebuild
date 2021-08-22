@@ -9,4 +9,4 @@ This repo is a rebuilt version of the site observe.ai. This showcases my skills 
 - Vanilla JS
 
 ### Other Languages/Frameworks I am good at
-- <a href="https://vishcomestrue.github.io/basic-CV-web-template/">TailWind CSS</a>
+- <a href="https://vishcomestrue.github.io/basic-CV-web-template/" style="textDecoration:none;">TailWind CSS</a>
