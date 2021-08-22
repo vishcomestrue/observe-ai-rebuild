@@ -85,13 +85,14 @@ body {
 .cookieConsent {
   background-color: black;
   color: white;
-  width: 300px;
+  width: 400px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
   left: 1em;
-  bottom: 1em;
+  top: 71vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,7 +105,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 15px;
+  padding: 30px;
   z-index: 9999;
   border-radius: 15px;
 }
@@ -135,6 +136,7 @@ body {
 }
 
 main {
+  margin-top: -181.5px;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
