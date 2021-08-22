@@ -1,4 +1,13 @@
 window.addEventListener('DOMContentLoaded', () => {
+  
+  let button = document.getElementById('cookie')
+  let element = document.getElementById('cookieConsent')
+
+  button.addEventListener('click', () => {
+    element.classList.add('hide')
+    console.log("hidden")
+  })
+  
   let products = document.getElementById('products')
   let resources = document.getElementById('resources')
   let company = document.getElementById('company')
