@@ -5,7 +5,6 @@ This repo is a rebuilt version of the landing page of the site <a href="https://
 ### Languages and Frameworks used
 - HTML
 - SASS
-- BootStrap(Just to show that I can work with BootStrap too)
 - Vanilla JS
 
 ### Other Languages/Frameworks I am good at
