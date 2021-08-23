@@ -10,15 +10,11 @@ window.addEventListener('DOMContentLoaded', () => {
     main.style.marginTop = "0px"
   })
   
-  let products = document.getElementById('products')
-  let resources = document.getElementById('resources')
-  let company = document.getElementById('company')
-
-  window.onscroll = function() {checkScroll()};
-
   let navbar = document.getElementById("navbar");
 
   let sticky = navbar.offsetTop;
+
+  window.onscroll = function() {checkScroll()};
 
   function checkScroll() {
     if (window.pageYOffset >= sticky) {
