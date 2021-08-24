@@ -521,3 +521,75 @@ footer
   flex-direction: column
   align-items: center
   justify-content: space-around
+  background-color: black
+  color: white
+  padding: 60px 0
+
+.footer
+  &__top
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+
+    &--container
+      display: flex
+      flex-direction: column
+      align-items: flex-start
+      // justify-content: center
+      padding: 0 10px
+
+      &-heading
+        font-weight: 500
+      
+      &-context 
+        
+        & > ul
+          padding-left: 0
+          list-style: none
+
+          & > li
+            padding: 3px 0
+
+  &__hr
+    background-color: white
+    height: 2px
+    width: 80%
+  
+  &__bottom
+    display: flex
+
+    &--left
+      width: 50%
+
+      &-logo > img 
+        width: 30%
+        object-fit: contain
+
+      &-cprt
+        padding: 0 20px
+
+    &--right 
+      width: 50%
+
+      &-logo
+        padding: 10px 0
+        font-size: 1.5rem
+        cursor: pointer
+        & > a
+          text-decoration: none
+          color: white
+
+      &-links > a
+        text-decoration: underline
+        color: white
+        &:hover
+          color: #fcbd2f
+
+      &-address
+        padding-top: 10px
+
+      &-number > a
+        text-decoration: underline
+        color: white
+        &:hover
+          color: #fcbd2f
+          
