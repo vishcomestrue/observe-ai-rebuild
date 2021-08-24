@@ -55,6 +55,15 @@ body
     background-color: #32343a
     color: #fcbd2f 
 
+.hamburger
+  display: none
+.bar
+  display: block
+  width: 25px
+  height: 3px
+  margin: 5px auto
+  transition: all 0.3s ease-in-out
+  background-color: white
 
 .cookieConsent
   background-color: black
@@ -487,7 +496,7 @@ main
 
       & > img
         width: 160px
-        height: 70px
+        aspect-ratio: 16/7
         object-fit: contain
         padding: 5px
 
@@ -593,3 +602,239 @@ footer
         &:hover
           color: #fcbd2f
           
+
+
+//ADDING RESPONSIVENESS TO THE SITE
+
+@media screen and ( max-width: 400px )
+  .banner
+    font-size: 0.73rem
+    padding: 10px
+    & > a 
+      font-weight: 700
+
+  .nav
+    justify-content: space-between
+
+    &__logo
+      width: 40%
+      height: 100%
+      & > img
+        width: 100%
+        height: 100%
+        object-fit: contain
+
+    &__menu
+      display: none
+
+    &__button
+      display: none
+
+  .hamburger 
+    display: block
+    cursor: pointer
+    margin-right: 10%
+
+  .cookieConsent
+    box-sizing: border-box
+    width: 100vw
+    left: 0
+    // right: 0
+    top: 83.5vh
+    font-size: 0.85rem
+    padding: 15px
+    border-radius: 10px
+    & > button 
+      border-radius: 10px
+
+  .eighty
+    width: 90vw
+  
+  .firstContainer
+
+    &__heading
+      width: 90%
+      font-size: 2.1rem
+
+    &__desc
+      font-size: 0.85rem
+      width: 80%
+
+    &__img
+      & > img
+        width: 80vw
+
+    &__results
+      margin-bottom: 75px
+      &--heading
+        font-size: 2rem
+        text-align: center
+      &--container
+        margin-top: 40px
+        flex-direction: column
+        &-box
+          width: 90%
+          &--heading
+            font-size: 3.5rem
+          &--content
+            font-size: 1rem
+            margin-bottom: 20px
+
+    &__trust
+      margin-bottom: 100px
+      &--heading
+        font-size: 2rem
+      &--logoCollec
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-row-gap: 30px
+        &-img
+          width: 100%
+
+    &__recog
+      &--heading
+        font-size: 1.85rem
+      &--container
+        flex-direction: column 
+        &-companies
+          width: 70%
+          padding-bottom: 50px
+          &--logo
+            width: 5%
+
+  .secondContainer
+    &__calls
+      flex-direction: column
+      // align-items: center
+
+      &--container
+        width: 90%
+
+        &-heading
+          font-size: 2rem
+          padding-bottom: 20px
+
+      &--svg
+        width: 100%
+
+    &__evaluate
+
+      &--heading
+        width: 90%
+        font-size: 2rem
+
+      &--context
+        width: 90%
+        font-size: 1rem
+
+      &--svgImage
+        width: 90vw
+
+    &__motivate
+      width: 90vw
+      flex-direction: column 
+
+      &--container
+        width: 90%
+
+        &-heading
+          font-size: 2rem
+
+        &-link > a
+          font-size: 0.9rem
+
+      &--svg
+        width: 100%
+
+  .thirdContainer
+
+    &__heading
+      font-size: 1.9rem
+      text-align: center
+
+    &__context
+      width: 75%
+      font-size: 1rem
+
+    &__gallery
+      display: grid
+      grid-template-columns: 1fr 1fr
+      grid-row-gap: 40px
+
+      &--card
+
+        &-dp > img
+          width: 90px
+          height: 90px
+
+        &-desig
+          font-size: 0.8rem      
+
+  .fourthContainer
+    padding: 100px 0
+
+    &__carousel
+      width: 90%
+      flex-direction: column
+
+      &--button
+        margin: auto
+        font-size: 2.5rem
+        padding: 30px 0
+
+  .carousel
+
+    &--slide
+      flex-direction: column
+      align-items: center
+
+      &__dp
+        width: fit-content
+        margin-bottom: 30px
+        & > img 
+          height: 100px
+          width: 100px
+
+      &__context
+        font-size: 0.9rem
+        font-weight: 500
+
+  .fifthContainer
+    padding: 100px 0
+
+    &__partners
+
+      &--heading
+        font-size: 2rem
+        text-align: center
+
+      &--logos
+        width: 90vw
+        grid-template-columns: 1fr 1fr
+
+        & > img
+          width: 120px
+
+    &__enable
+
+      &--heading
+        font-size: 1.9rem
+        text-align: center
+
+  .footer
+    &__top
+      grid-template-columns: 1fr 1fr
+      grid-template-rows: 1fr 1fr 0.5fr
+
+      &--container
+        &-context 
+          font-size: 0.85rem
+
+    &__bottom
+
+      &--left
+        width: 40%
+        font-size: 0.75rem
+
+        &-logo > img
+          width: 90%
