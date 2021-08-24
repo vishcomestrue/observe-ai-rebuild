@@ -411,6 +411,7 @@ main
   height: 15px
   width: 15px
   border-color: transparent 
+  cursor: pointer
 
   &__active
     background-color: rgba(255, 255, 255, 0.95)
@@ -458,3 +459,59 @@ main
 
       &-quote
         padding: 10px 0
+
+.fifthContainer
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-evenly
+  padding: 120px 0
+
+  &__partners
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-evenly
+
+    &--heading
+      font-family: 'PlayFair Display', sans-serif
+      font-size: 2.7rem
+      font-weight: 900
+      padding: 40px 0
+
+    &--logos
+      padding: 40px 0
+      width: 80vw
+      display: grid
+      grid-template-columns: auto auto auto auto auto auto
+
+      & > img
+        width: 160px
+        height: 70px
+        object-fit: contain
+        padding: 5px
+
+  &__enable
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    &--heading
+      font-family: 'PlayFair Display', sans-serif
+      font-size: 2.7rem
+      font-weight: 900
+      padding: 60px 0
+
+    &--button
+      background-color: #fcbd2f
+      padding: 20px 25px
+      color: black
+      font-family: 'IBM Plex Sans', sans-serif
+      font-weight: 700
+      border: transparent
+      letter-spacing: 2px
+      font-size: 1.05rem
+      &:hover
+        background-color: #32343a
+        color: #fcbd2f
