@@ -673,6 +673,7 @@ main {
   height: 15px;
   width: 15px;
   border-color: transparent;
+  cursor: pointer;
 }
 
 .carousel__active {
@@ -745,5 +746,101 @@ main {
 
 .carousel--slide__context-quote {
   padding: 10px 0;
+}
+
+.fifthContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 120px 0;
+}
+
+.fifthContainer__partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.fifthContainer__partners--heading {
+  font-family: 'PlayFair Display', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 900;
+  padding: 40px 0;
+}
+
+.fifthContainer__partners--logos {
+  padding: 40px 0;
+  width: 80vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto;
+}
+
+.fifthContainer__partners--logos > img {
+  width: 160px;
+  height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 5px;
+}
+
+.fifthContainer__enable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fifthContainer__enable--heading {
+  font-family: 'PlayFair Display', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 900;
+  padding: 60px 0;
+}
+
+.fifthContainer__enable--button {
+  background-color: #fcbd2f;
+  padding: 20px 25px;
+  color: black;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  border: transparent;
+  letter-spacing: 2px;
+  font-size: 1.05rem;
+}
+
+.fifthContainer__enable--button:hover {
+  background-color: #32343a;
+  color: #fcbd2f;
 }
 /*# sourceMappingURL=index.css.map */
